@@ -1,0 +1,130 @@
+
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+
+
+
+.App{
+  
+   width:50%;
+   margin:10px auto;
+   overflow:hidden;
+   border:1px solid black;
+   border-radius:10px;
+   padding:10px;
+}
+
+.header,.title2,.bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.header h1, .header i{
+  padding:10px;
+  cursor:pointer;
+}
+
+.content1 .icons, .last h3{
+  display:flex;
+  justify-content:flex-end;
+  
+}
+.content1, .last{
+  display:flex;
+  flex-direction:column;
+}
+.icons i{
+  padding:10px;
+}
+
+.content1 input, .last input{
+  margin:5px;
+  padding:20px;
+  text-align:right;
+  border:2px solid grey;
+  border-radius:15px;
+  font-size:25px;
+  background-color:rgb(216, 209, 209);
+  font-weight:800;
+}
+
+
+.bottom div{
+  display:flex;
+  gap:5px;
+  margin-left:5px;
+}
+button{
+  border:2px solid grey;
+  padding:4px 40px;
+  cursor:pointer;
+
+  border-radius:99px;
+  background-color:rgb(216, 209, 209);
+
+}
+
+button:first-child:not(.bottom button){
+  background-color:yellow;
+}
+
+.bottom span{
+  margin-right:8px;
+}
+
+.card {
+  display:flex;
+  justify-content:space-between;
+   margin:5px;
+}
+.card:first-child{
+  background-color:yellow;
+}
+
+.content2 .title{
+  padding:10px;
+}
+span,h3{
+  margin-left:5px;
+}
+
+.title2{
+  margin-top:10px;
+  padding-bottom:20px;
+}
+.title2 .right i{
+  font-size:50px;
+  
+}
+
+.last{
+ padding:10px 0;
+}
+
+.footer h3{
+  text-align:center;
+
+}
+
+.footer .middle{
+  display:flex;
+  justify-content:space-between;
+  padding:4px 0;
+}
+.middle div:last-child{
+  color:red;
+  font-weight:600;
+}
+.content i{
+ font-size:5px;
+ margin-right:15px;
+ 
+
+}
+
+
+
